@@ -61,11 +61,9 @@ ul li {
   row-gap: 20px;
 }
 .cocktail .cocktail-ul{
-
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  
 }
 .drinkImg img{
   width: 250px;
@@ -76,5 +74,23 @@ ul li {
   padding: 0px;
   align-self: normal;
   
+}
+@media only screen and (max-width: 769px) {
+  .cocktail .cocktail-ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .drinkImg img{
+    width: 150px;
+  }
+  form input {
+    width: 200px;
+    padding: 10px;
+    margin-right: 0px;
+    border-radius: 10px;
+  }
 }
 
