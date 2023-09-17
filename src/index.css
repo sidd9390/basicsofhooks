@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App {
+  text-align: center;
+}
+
+button {
+  padding: 10px 10px;
+  background-color: aqua;
+  width: 70px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+form {
+  padding-top: 100px;
+}
+
+form input {
+  width: 400px;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+ul li {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 15px;
+
+}
+.cocktail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+.cocktail .cocktail-ul{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  
+}
+.drinkImg img{
+  width: 250px;
+}
+.cocktail .cocktail-ul li{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  align-self: normal;
+  
+}
+
